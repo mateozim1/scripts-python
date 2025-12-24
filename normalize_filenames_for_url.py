@@ -40,7 +40,8 @@ def rename_files(directory):
                 os.rename(old_path, new_path)
                 print(f'Renomeado: {filename} → {new_name}')
 
-# 🔹 Informe o caminho da pasta
+#  Caminho da pasta
 PASTA_ARQUIVOS = r'C:\caminho\para\sua\pasta'
 
 rename_files(PASTA_ARQUIVOS)
+
